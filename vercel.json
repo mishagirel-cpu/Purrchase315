@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "installCommand": "npm install",
-  "buildCommand": "npx expo export -p web",
+  "buildCommand": "npx expo export --platform web",
   "outputDirectory": "dist",
+  "engines": {
+    "node": "20.x"
+  },
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]
