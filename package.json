@@ -1,6 +1,9 @@
 {
   "name": "purrchase",
   "version": "1.0.0",
+  "engines": {
+    "node": "20.x"
+  },
   "main": "index.ts",
   "scripts": {
     "start": "expo start",
